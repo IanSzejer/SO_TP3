@@ -1,0 +1,4 @@
+GLOBAL .RUN_ME
+
+.RUN_ME:
+ret

@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main(void){
-    printf("quine\n");
+    char c;
+    FILE *myFile;
+    myFile = fopen("quine.c", "r");
+    while((c=fgetc(myFile)) != EOF){
+        printf("%c",c);
+    }
+    fclose(myFile);
     return 0;
 }

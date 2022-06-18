@@ -1,14 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <math.h>
-#define NORMALISE 4
-#define FIRST_LETTER 32
-#define LAST_LETTER 126
-#define GDB_MAGIC_NUMBER 0x12345678
-#define MAX 1000
+#include "levelFunctions.h"
 
+static void gdbme();
+static double getRandomNormalvalue();
 
 void level4Func() {
     if (write(13, "................................La respuesta es fk3wfLCm3QvS\n", 61) == -1) {
@@ -62,6 +55,13 @@ void level11Func(){
     gdbme();
 }
 
+void level12Func(){
+    for (int i = 0; i < MAX; i++) {
+        printf("%.6f ", getRandomNormalvalue());
+    }
+    printf("\n");
+}
+
 static void gdbme() {
     if (getpid() == GDB_MAGIC_NUMBER) {
         printf("La respuesta es gdb_rules\n");
@@ -69,12 +69,5 @@ static void gdbme() {
 }
 
 static double getRandomNormalvalue(){
-    return sqrt(-2 * log(rand()/RAND_MAX +1.0))* cos(2* M_PI * (rand()/RAND_MAX +1.0));
-}
-
-void level12Func(){
-    for (int i = 0; i < MAX; i++) {
-        printf("%.6f ", getRandomNormalValue());
-    }
-    printf("\n");
+    return sqrt(-2 * log((double)rand()/RAND_MAX + 1.0)) * cos(2*M_PI* ((double)rand()/RAND_MAX + 1.0));
 }

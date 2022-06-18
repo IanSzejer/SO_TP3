@@ -1,0 +1,49 @@
+[1;1H[2J------------- DESAFIO -------------
+Bienvenidos al TP3 y felicitaciones, ya resolvieron el primer acertijo.
+
+En este TP deberán finalizar el juego que ya comenzaron resolviendo los desafíos de cada nivel.
+Además tendrán que investigar otras preguntas para responder durante la defensa.
+El desafío final consiste en crear un programa que se comporte igual que yo, es decir, que provea los mismos desafíos y que sea necesario hacer lo mismo para resolverlos. No basta con esperar la respuesta.
+Además, deberán implementar otro programa para comunicarse conmigo.
+
+Deberán estar atentos a los easter eggs.
+
+Para verificar que sus respuestas tienen el formato correcto respondan a este desafío con la palabra 'entendido\n' 
+----- PREGUNTA PARA INVESTIGAR -----
+¿Cómo descubrieron el protocolo, la dirección y el puerto para conectarse?
+[1;1H[2J------------- DESAFIO -------------
+The Wire S1E5
+5295 888 6288
+----- PREGUNTA PARA INVESTIGAR -----
+¿Qué diferencias hay entre TCP y UDP y en qué casos conviene usar cada uno?
+Respuesta incorrecta: entendido
+
+[1;1H[2J[1;1H[2J------------- DESAFIO -------------
+The Wire S1E5
+5295 888 6288
+----- PREGUNTA PARA INVESTIGAR -----
+¿Qué diferencias hay entre TCP y UDP y en qué casos conviene usar cada uno?
+Respuesta incorrecta: M4GFKZ289aku
+
+[1;1H[2J[1;1H[2J------------- DESAFIO -------------
+The Wire S1E5
+5295 888 6288
+----- PREGUNTA PARA INVESTIGAR -----
+¿Qué diferencias hay entre TCP y UDP y en qué casos conviene usar cada uno?
+Respuesta incorrecta: fk3wfLCm3QvS
+
+[1;1H[2J[1;1H[2J------------- DESAFIO -------------
+The Wire S1E5
+5295 888 6288
+----- PREGUNTA PARA INVESTIGAR -----
+¿Qué diferencias hay entre TCP y UDP y en qué casos conviene usar cada uno?
+Respuesta incorrecta: too_easy
+
+[1;1H[2J[1;1H[2J------------- DESAFIO -------------
+The Wire S1E5
+5295 888 6288
+----- PREGUNTA PARA INVESTIGAR -----
+¿Qué diferencias hay entre TCP y UDP y en qué casos conviene usar cada uno?
+Respuesta incorrecta: .RUN_ME
+
+[1;1H[2J[1;1H[2J------------- DE
