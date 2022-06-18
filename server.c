@@ -7,7 +7,9 @@
 #include <string.h>
 #include <sys/socket.h>
 #include <unistd.h>
+#include "levelFunctions.h"
 #define MAX_BUFFER_SIZE 1024
+
 typedef struct Level{
     char desafio[200];
     char pregunta[200];
