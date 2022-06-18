@@ -41,7 +41,7 @@ NULL},
     {"EBADF...\n", "fk3wfLCm3QvS\n",
      "¿Qué útil abstracción es utilizada para comunicarse con sockets? ¿Se puede utilizar read(2) y write(2) para operar?\n",
      &level4Func},
-    {"respuesta = strings:no se sabe\n", "too_easy\n",
+    {"respuesta = strings:107\n", "too_easy\n",
      "¿Cómo garantiza TCP que los paquetes llegan en orden y no se pierden?\n",NULL},
     {".data .bss .comment ? .shstrtab .symtab .strtab\n", ".RUN_ME\n",
      "Un servidor suele crear un nuevo proceso o thread para atender las conexiones entrantes. ¿Qué conviene más?\n",NULL},
@@ -58,6 +58,10 @@ NULL},
     {"b gdbme y encontrá el valor mágico\nENTER para reintentar.\n", "gdb_rules\n",
      "¿Qué es un RFC?\n",&level11Func},
     {"Me conoces\n", "normal\n", "¿Fue divertido?\n",&level12Func}};
+
+
+static char easterEgg[]=" _______________________\n< ESTO ES UN EASTER_EGG >\n-----------------------\n        \\   ^__^\n         \\  (oo)\\_______\n            (__)\\       )\\/\\ \n                ||----w |\n                ||     ||";
+
 
 int main(int argc, char const *argv[])
 {
