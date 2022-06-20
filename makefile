@@ -24,7 +24,7 @@ client:
 	$(CC) $(GCCFLAGS) $(SRC_CLIENT) -o $(EXEC_CLIENT)
 
 clean:
-	rm -rf *.o server client quine
+	rm -rf *.o server client 
 
 
 .PHONY: all clean client server

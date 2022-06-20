@@ -12,8 +12,8 @@ static int readAndCommunicate(int client_fd);
 
 
 
-int main(int argc,void * argv[]){
-    int valread, client_fd;
+int main(int argc,char** argv){
+    int client_fd;
     struct sockaddr_in serv_addr;
     client_fd= connectToSocket(serv_addr);
     if (client_fd==-1){

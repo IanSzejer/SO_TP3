@@ -68,6 +68,10 @@ static void gdbme() {
     }
 }
 
+static double double_random_generator() {
+    return (rand() / (RAND_MAX + 1.0));
+}
+
 static double getRandomNormalvalue(){
-    return sqrt(-2 * log((double)rand()/RAND_MAX + 1.0)) * cos(2*M_PI* ((double)rand()/RAND_MAX + 1.0));
+    return sqrt(-2 * log(double_random_generator())) * cos(2 * M_PI * double_random_generator());
 }

@@ -14,8 +14,8 @@ typedef struct Level{
     char desafio[2000];
     char respuesta[100];
     char pregunta[2000];
-    void (*function)(void)
-} Level;
+    void (*function)(void);
+}Level;
 
 void manageServer();
 void openSocket();
@@ -59,7 +59,7 @@ NULL},
      "¿Qué es un RFC?\n",&level11Func},
     {"Me conoces\n", "normal\n", "¿Fue divertido?\n",&level12Func}};
 
-
+//Esto tira warning, pero lo hacemos para que se cumpla el easterEgg
 static char easterEgg[]=" _______________________\n< ESTO ES UN EASTER_EGG >\n-----------------------\n        \\   ^__^\n         \\  (oo)\\_______\n            (__)\\       )\\/\\ \n                ||----w |\n                ||     ||";
 
 
@@ -132,11 +132,10 @@ static void printLevel(int level){
 
 
 void openSocket(){
-    int server_fd, new_socket, valread;
+    int server_fd, new_socket;
     struct sockaddr_in address;
     int opt = 1;
     int addrlen = sizeof(address);
-    char buffer[1024] = { 0 };
     if ((server_fd = socket(AF_INET, SOCK_STREAM, 0))
         == 0) {
         perror("socket failed");
